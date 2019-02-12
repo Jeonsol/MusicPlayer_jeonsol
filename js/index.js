@@ -11,7 +11,11 @@
     init: function() {
       this.titleArea = document.querySelector('.title')
       this.timeArea = document.querySelector('.time')
+      //todo: [질문1] 여기엔 this.listTag 안들어가고
+      //console.log("hi", this.listTag)
       this.listTag = document.getElementsByClassName('list')
+      //todo: [질문1] 여기도 this.listTag 안들어가는데
+      //console.log("hi2", this.listTag)
 
       this.setPlayBox()
       this.setMusicList()
@@ -35,6 +39,8 @@
         li.onclick = function (event) {
           _this.setPlayBox(index)
 
+          //todo: [질문1] 여기엔 this.listTag가 어떻 들어갔지..?
+          //console.log("h3", _this.listTag)
           Array.from(_this.listTag).forEach(function (list) {
             list.classList.remove('active')
           })
