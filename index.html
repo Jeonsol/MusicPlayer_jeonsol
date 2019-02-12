@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>뮤직플레이어</title>
+    <style>
+        .box {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .list {
+            margin-left: 10px;
+        }
+        .list.active .link{
+          color: #f00;
+        }
+        .link {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Music Player</h1>
+    <div class="music_player_wrap box">
+        <p class="title"></p>
+        <p class="time"></p>
+        <div class="button_area">
+            <button type="button" class="button play">재생</button>
+            <button type="button" class="button play">중지</button>
+            <button type="button" class="button play">이전곡</button>
+            <button type="button" class="button play">다음곡</button>
+        </div>
+    </div>
+
+    <h1>Play List</h1>
+    <ul class="list_set box">
+    </ul>
+    <script type="text/javascript" src="model/musicList.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+
+    </script>
+</body>
+</html>
