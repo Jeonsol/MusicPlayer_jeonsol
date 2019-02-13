@@ -1,7 +1,7 @@
 var musicListData = [
   { "id" : "m001", "title": "IDOL", "artist": "방탄소년단", "playtime": "00:12" },
   { "id" : "m002", "title": "AND I", "artist": "뉴이스트 W", "playtime": "00:17" },
-  { "id" : "m003", "title": "Way Back Home", "artist": "숀", "playtime": "03:34" },
+  { "id" : "m003", "title": "Way Back Home", "artist": "숀", "playtime": "00:34" },
   { "id" : "m004", "title": "Dejavu", "artist": "뉴이스트 W", "playtime": "03:19" },
   { "id" : "m005", "title": "Power Up", "artist": "레드벨벳", "playtime": "03:22" },
   { "id" : "m006", "title": "Euphoria", "artist": "방탄소년단", "playtime": "03:48" },
